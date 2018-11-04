@@ -51,16 +51,26 @@ body {
 #Ubermich {
   font-family: 'Handlee', cursive;
 }
+<<<<<<< HEAD
 
 /* #Home,
+=======
+/*
+#Home,
+>>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
 #Angebote,
 #Blog,
 #Ubermich,
 #Contact {
   background-image: url('../img/background_possible.jpg') !important;
   background-size: cover;
+<<<<<<< HEAD
 } */
 
+=======
+}
+*/
+>>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
 /*
 MAIN STYLES FOR ALL PAGES
 */
@@ -202,6 +212,7 @@ CONTACTS PAGE
 .input-field .prefix.active {
   color: #000;
 }
+<<<<<<< HEAD
 
 .section-contact span {
   color: #000;
@@ -243,3 +254,5 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .input-field .prefix.active {
   color: #000;
 }
+=======
+>>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
