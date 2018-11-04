@@ -50,27 +50,18 @@ body {
 #Home,
 #Ubermich {
   font-family: 'Handlee', cursive;
+  /* font-family: sans-serif; */
 }
-<<<<<<< HEAD
 
 /* #Home,
-=======
-/*
-#Home,
->>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
 #Angebote,
 #Blog,
 #Ubermich,
 #Contact {
   background-image: url('../img/background_possible.jpg') !important;
   background-size: cover;
-<<<<<<< HEAD
 } */
 
-=======
-}
-*/
->>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
 /*
 MAIN STYLES FOR ALL PAGES
 */
@@ -79,6 +70,13 @@ MAIN STYLES FOR ALL PAGES
 .brand-logo {
   /* font-family: 'kilsonburgregular'; */
   font-family: 'skarpa_regularregular';
+  font-family: 'kilsonburgregular';
+}
+
+.quotes {
+  color: black;
+  /* background: grey; */
+  margin-top: 450px;
 }
 
 /* nav .brand-logo {
@@ -94,11 +92,24 @@ nav .brand-logo {
   display: inline-block;
   position: relative;
   float: left;
-  height: 4rem;
-  width: 5.5rem;
+  left: -170px;
   padding-top: 1%;
+  height: 130px;
+  width: 208px;
 }
 
+ul.right .hide-on-med-and-down {
+  /* @todo style the menu to the right */
+}
+
+nav {
+  height: 130px;
+}
+
+nav ul {
+  padding-top: 70px;
+  float: right;
+}
 
 nav ul a {
   text-transform: uppercase;
@@ -107,7 +118,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: red;
+  color: blue;
 }
 
 nav .sidenav-trigger {
@@ -115,7 +126,7 @@ nav .sidenav-trigger {
 }
 
 .active a {
-  color: red;
+  color: blue;
 }
 
 .sidenav {
@@ -158,6 +169,9 @@ STYLES AT AGNEBOT
   height: 100%;
   align-items: center;
   display: flex;
+  margin-top: 150px;
+  margin-left: 170px;
+  /* right: 100px; */
 }
 
 span.agnebot-hover-text {
@@ -212,7 +226,6 @@ CONTACTS PAGE
 .input-field .prefix.active {
   color: #000;
 }
-<<<<<<< HEAD
 
 .section-contact span {
   color: #000;
@@ -254,5 +267,3 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .input-field .prefix.active {
   color: #000;
 }
-=======
->>>>>>> 1a232da078c41fe9b00bff95e9f6a5e2fc6cce61
