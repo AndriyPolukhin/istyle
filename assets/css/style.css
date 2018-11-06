@@ -132,6 +132,19 @@ nav .sidenav-trigger {
 .sidenav {
   background: black;
   padding-top: 50%;
+  -webkit-transform: translateX(105%);
+  transform: translateX(105%);
+}
+
+@media only screen and (max-width: 992px) {
+  .sidenav.sidenav-fixed {
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+  }
+  .sidenav.sidenav-fixed.right-aligned {
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+  }
 }
 
 .sidenav li.active a {
