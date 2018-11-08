@@ -132,6 +132,7 @@ nav ul {
 nav ul a {
   text-transform: uppercase;
   font-family: 'kilsonburgregular', 'vogamedium', sans-serif;
+  font-family: 'kilsonburgregular';
   transition: all 0.5;
 }
 
