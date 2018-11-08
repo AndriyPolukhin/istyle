@@ -172,41 +172,57 @@ nav .sidenav-trigger {
 .firstSlide {
   background-image: url('../img/Slide.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .secondSlide {
   background-image: url('../img/AngeboteMAIN.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_1 {
   background-image: url('../img/wadrobe_clean_out.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_2 {
   background-image: url('../img/shopping4.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_3 {
   background-image: url('../img/speed_fashion_assistance.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_4 {
   background-image: url('../img/shopping2.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_5 {
   background-image: url('../img/shooting.jpeg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offser_6 {
   background-image: url('../img/gift1.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media only screen and (max-width: 748px) {
