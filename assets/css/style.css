@@ -11,13 +11,6 @@
 
 /* FONTS */
 
-@font-face {
-  font-family: 'kilsonburgregular';
-  src: url('fonts/kilsonburg-webfont.woff2') format('woff2'), url('fonts/kilsonburg-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* FONTS FOR HEADERS */
 
 @font-face {
@@ -62,6 +55,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'kilsonburgregular';
+  src: url('fonts/kilsonburg-webfont.woff2') format('woff2'), url('fonts/kilsonburg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* FONTS ENDED */
 
 .icon-block {
@@ -71,6 +71,11 @@
 .icon-block .material-icons {
   font-size: inherit;
 }
+
+/* body * {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
+} */
 
 body {
   font-family: 'Lato';
@@ -96,12 +101,19 @@ MAIN STYLES FOR ALL PAGES
   /* color: white; */
   color: black;
   margin-top: 450px;
-  font-family: 'vogamedium', 'glamorbold', serif;
+  /* font-family: 'vogamedium', 'glamorbold', serif; */
+  font-family: 'kilsonburgregular';
   font-weight: 700;
+}
+
+.navbar-fixed {
+  width: 100%;
+  margin: auto;
 }
 
 nav .container {
   width: 100%;
+  max-width: 1649px;
 }
 
 nav .brand-logo {
@@ -109,7 +121,7 @@ nav .brand-logo {
   display: inline-block;
   position: relative;
   /* float: left; */
-  left: -25rem;
+  left: -40rem;
   margin-right: 10%;
   padding-top: 1%;
   height: 130px;
@@ -131,7 +143,6 @@ nav ul {
 
 nav ul a {
   text-transform: uppercase;
-  font-family: 'kilsonburgregular', 'vogamedium', sans-serif;
   font-family: 'kilsonburgregular';
   transition: all 0.5;
 }
@@ -169,11 +180,25 @@ nav .sidenav-trigger {
 
 /* SLIDES IMAGES AS A BACKGROUND */
 
+/* .slider .slides li img {
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  height: 100vh;
+  height: 100%;
+}
+
+img.responsive-img {
+  max-width: 100%;
+  width: 70%;
+  height: 100%;
+} */
+
 .firstSlide {
   background-image: url('../img/Slide.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
 }
 
 .secondSlide {
